@@ -29,6 +29,10 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'dotenv-rails'
 gem 'stripe'
+gem 'carrierwave'
+gem 'mini_magick'
+
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
@@ -60,6 +64,7 @@ end
 
 group :production do 
   gem 'pg'
+  gem 'fog' # images in production
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
