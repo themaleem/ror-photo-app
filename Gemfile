@@ -64,7 +64,7 @@ end
 
 group :production do 
   gem 'pg'
-  gem 'fog' # images in production
+  # gem 'fog' # images in production
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
