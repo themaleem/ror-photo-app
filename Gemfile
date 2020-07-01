@@ -29,8 +29,11 @@ gem 'devise-bootstrap-views'
 gem 'jquery-rails'
 gem 'dotenv-rails'
 gem 'stripe'
+
+# image upload gems
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'fog-aws'
 
 
 # Use ActiveStorage variant
